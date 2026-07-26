@@ -1,0 +1,128 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: tahoma, Arial, sans-serif;
+}
+
+body {
+    background: linear-gradient(13 5deg, #0f172a, #1e3a8a);
+    direction: rtl;
+    color: #333;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+
+form {
+    width: 420px;
+    background: #fff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, .25)L;
+    margin: 20px;
+}
+
+h1,
+h2,
+h3 {
+    text-align: center;
+    color: #1e40af;
+    margin: 20px;
+}
+
+label {
+    display: block;
+    margin: 12px 0px;
+    font-weight: bold;
+}
+
+inputل {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid#ccc;
+    border-radius: 8px;
+    font-size: 16ox;
+    transition: .3s;
+}
+
+input:focus {
+    border-color: #2563eb;
+    outline: none;
+    box-shadow: 0 0 8px rgba(37, 99, 235, .3);
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 8px;
+    background: #2563eb;
+    color: white;
+    font-size: 17px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+button:hover {
+    background: #1d4ed8;
+}
+
+hr {
+    margin: 25px 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #fff;
+    margin-top: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 15);
+}
+
+th {
+    background: #2563eb;
+    color: #fff;
+}
+
+th,
+td {
+    padding: 15px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+tr:nth-child(even) {
+    background: #f4f4f4;
+}
+
+ul {
+    list-style: none;
+    margin: 20x0;
+}
+
+ul li {
+    margin: 10px0;
+}
+
+ul li a {
+    display: block;
+    text-decoration: none;
+    background: #fff;
+    color: #2563eb;
+    padding: 12px;
+    border-radius: 8px;
+    transition: .3s;
+    font-weight: bold;
+}
+
+ul li a:hover {
+    background: #2563eb;
+    color: white;
+    transition: translatex(-5px);
+}
